@@ -1,0 +1,99 @@
+* {
+  font-family: 'Righteous', sans-serif;
+}
+
+body {
+    background-image: url("../../assets//images/pexels-aleksandar-pasaric-1694000.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 140vh;
+    z-index: -1000;
+}
+
+.signup_form {
+  display: flex;
+  flex-direction: column;
+  color: #f3f3f3;
+  min-width: 400px;
+  width: 30%;
+  min-height: 430px;
+  height: 80%;
+  padding-top: 7%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  position: absolute;
+  z-index: 3;
+  top: 500px;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.titulo-register {
+  -webkit-text-stroke: 1px #D3CC3F;
+  font-family: 'Righteous', sans-serif;
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0);
+  position: absolute;
+  text-align: start;
+  top: 21%;
+}
+
+.form_lista {
+    height: 0px;
+    text-align: left;
+    color: #D3CC3F;
+    list-style: initial;
+    padding-left: 1.2em;
+    font-size: 0.8rem;
+    opacity: 0;
+    transition: height 0.5s;
+  }
+  
+  .form_lista--show {
+    height: 60px;
+    opacity: 1;
+  }
+  
+  .form_condicao--erro {
+    color: red;
+  }
+  
+  .form_show {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-bottom: 1em;
+    background-color: var(--background-modal);
+    padding-top: 10px;
+  }
+  
+  .form_checkbox {
+    margin: 0 0.5em 0 0;
+    position: relative;
+    width: 1.4rem;
+    height: 1.4rem;
+    padding-top: 5px;
+  }
+  
+  .form_checkbox + label {
+    padding-top: -5px;
+  }
+  
+  .form_submit:hover {
+    color: #D3CC3F;
+    border-color: #D3CC3F;
+  }
+
+  .form_footer a {
+    color: #D3CC3F;
+  }
+
+  .form_footer {
+    padding-top: 15px;
+  }
+
+  .form_footer a:hover {
+    text-decoration: underline;
+  }

@@ -1,0 +1,15 @@
+ #root {
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+}
+
+.actors, .starships, .home{
+  padding-top: 250px;
+}
+
+.App{
+  background-image: url("./pexels.jpg");
+  width: 100vw;
+}
+

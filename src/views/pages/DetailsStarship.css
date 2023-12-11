@@ -1,0 +1,138 @@
+/* SEÇÃO: NAVES */
+
+/* Box geral das informações da nave selecionada */
+.details {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  text-decoration: none;
+  border: none;
+}
+
+/* Nome da nave */
+.details h3 {
+  -webkit-text-stroke: 1px #D3CC3F;
+  font-family: 'Righteous', sans-serif;
+  font-size: 5vw;
+  color: rgba(255, 255, 255, 0);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.325);
+  border-bottom: 0.5px solid rgba(173, 173, 173, 0.203);
+}
+
+
+/* Imagem da nave */
+.details img {
+  width: 100%;
+  min-height: 300px;
+}
+
+/* Seção de informações da nave */
+.details__info {
+  position: relative;
+  top: 20px;
+}
+
+/* Container de informações da nave */
+.details__info {
+  padding: 1em 3em 1em;
+  border-radius: 20px;
+  background-color: #2E2D2D;
+  box-shadow: #D3CC3F 0px 1px 1px 0px, #D3CC3F 1px 0px 6px 1px;
+}
+
+/* Seção que exibe detalhes da nave */
+.details__naves {
+  display: flex;
+  
+}
+
+/* Colunas dentro da seção de detalhes da nave */
+.details__naves div {
+  padding-right: 1em;
+  flex: 1;
+}
+
+/* Parágrafo dentro da seção de detalhes da nave */
+.details__naves p {
+  margin: 1.5em 0;
+  color: white;
+  padding: 1em 2em;
+  font-family: 'Righteous', sans-serif;
+}
+
+
+/* SEÇÃO: PILOTOS */
+
+/* Box geral das informações dos pilotos */
+.section__header {
+  margin-top: 3em;
+  font-size: 32px;
+}
+
+/* Estilo para o caso em que não há pilotos */
+.section__empty {
+  width: 60%;
+  height: 100px;
+  margin: 0 auto;
+  padding: 1em;
+  background-color: var(--black);
+}
+
+/* SEÇÃO: FILMES */
+/* 
+.box-filmes__header {
+  font-size: 2rem;
+}
+
+.box-filmes__empty {
+  width: 60%;
+  height: 100px;
+  margin: 0 auto;
+  padding: 1em;
+  background-color: var(--black);
+} */
+
+
+/* Estilos para dispositivos móveis */
+
+@media screen and (max-width: 768px) {
+  .details {
+    width: 90%;
+    text-align: center;
+  }
+
+  .details h3 {
+    font-size: 10vw;
+  }
+
+  .details img {
+    min-height: 150px;
+  }
+
+  .details__info {
+    top: 0;
+    padding: 1em; 
+  }
+
+  .details__naves {
+    flex-direction: row;
+  }
+
+  .details__naves div {
+    padding-right: 0;
+    margin-bottom: 1em;
+  }
+
+  .details__header {
+    font-size: 5vw; 
+    margin-top: 1em;
+  }
+
+  .details__empty,
+  .details__empty {
+    width: 100%; 
+  }
+}
+
+

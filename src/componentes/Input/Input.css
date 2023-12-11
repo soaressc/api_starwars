@@ -1,0 +1,52 @@
+.input {
+    display: flex;
+    height: 30px;
+    padding: 0 15px;
+    line-height: 40px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+  }
+
+.campo-input {
+  flex-direction: inline;
+}
+
+  .nome-do-campo {
+    font-size: small;
+    color: #D3CC3F;
+    font-weight: bold;
+    padding: 0 15px;
+  }
+  
+  .input:focus {
+    background-color: var(--grey-modal);
+    color: #D3CC3F;
+    border: 1px solid #D3CC3F;
+    caret-color: #D3CC3F;
+  }
+  
+  .input:focus::placeholder {
+    color: whitesmoke;
+  }
+  
+  .input--expand {
+    width: 100%;
+  }
+  
+  .input--erro {
+    border: 1px solid red;
+  }
+  
+  .input--erro::placeholder {
+    color: red;
+  }
+  
+  .input_erros {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0.6em 0;
+    color: red;
+    text-align: left;
+    font-size: smaller;
+  }

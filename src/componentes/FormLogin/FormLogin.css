@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+  font-family: 'Righteous', sans-serif;
+}
+
+body {
+    background-image: url("../../assets//images/pexels-aleksandar-pasaric-1694000.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 140vh;
+    z-index: -1000;
+}
+
+.titulo-login {
+    -webkit-text-stroke: 1px #D3CC3F;
+    font-family: 'Righteous', sans-serif;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0);
+    position: absolute;
+    text-align: start;
+    top: 2%;
+}
+
+input {
+    top: 5%;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    color: var(--grey-color);
+    min-width: 300px;
+    width: 30%;
+    min-height: 350px;
+    padding-top: 7%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    z-index: 3;
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.form_ajuda {
+    margin: 5px 0 30px;
+    text-align: right;
+  }
+  
+  .form_ajuda a {
+    color: #D3CC3F;
+  }
+  
+  .form_ajuda a:hover {
+    text-decoration: underline;
+  }
+  
+  .form_conta {
+    background-color: transparent;
+    color: #D3CC3F;
+  }
+  
+  .form_conta:hover,
+  .form_conta:focus {
+    border: 1px solid #D3CC3F;
+  }
+
+  button {
+    margin-top: 10px;
+    padding: 0.7em 2em;
+    background-color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: opacity 10s;
+  }
+
+  button:hover {
+    color: #D3CC3F;
+    border-color: #D3CC3F;
+  }
+
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }

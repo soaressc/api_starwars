@@ -1,0 +1,69 @@
+.logo-star-wars{
+    margin-top: 10px;
+    width: 190px;
+    height: auto;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: transparent; 
+    z-index: 2;  
+}
+
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    align-items: end;
+    justify-content: space-around;
+    /* margin-left: 80vw; */
+    margin-top: -2vw;
+    text-align: end;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #BFBFBF;
+}
+
+header nav ul li a:hover{
+    text-decoration: none;
+    color: #404040;
+}
+
+/* Celular */
+@media screen and (max-width: 640px) {
+    .logo-star-wars{
+        width: 150px;
+        margin-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header nav ul{
+        width: 80vw;
+        flex-direction: column;
+        margin-top: 2vw;
+        margin-left: 0vw;
+        text-align: center;
+    }
+
+    header nav ul li{
+        font-size: 15px;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 640px) and (max-width:1007px) {
+    .logo-star-wars{
+        margin-top: 30px;
+    }
+}

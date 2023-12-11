@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.actor {
+  /* color: var(--grey-color); */
+  margin-bottom: 10em;
+  /* margin-top: 30%; */
+}
+
+.actor h3 {
+  margin-bottom: 0;
+  padding: 0.5em 0.6em;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.325);
+  border-bottom: 0.5px solid rgba(173, 173, 173, 0.203);
+  color: rgba(255, 255, 255, 0);
+  font-family: 'Righteous', sans-serif;
+  -webkit-text-stroke: 1px #D3CC3F;
+  font-size: 55px;
+}
+
+.actor__details {
+  display: flex;
+  padding: 1em 2em;
+  font-family: 'Righteous', sans-serif;
+  color: #fff;
+  /* background-color: var(--grey-dark); */
+}
+
+.actor__details div {
+  flex: 1;
+}
+
+.actor__detail {
+  font-size: 1.3rem;
+  margin-left: 2%;
+}
+
+.personagem-caixa-1{
+  background-color: #2E2D2D;
+  margin-right: 3%;
+  padding-top: 3%;
+  padding-right: 8%;
+  padding-left: 8%;
+  padding-bottom: 4%;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.personagem-caixa-2{
+  background-color:  #2E2D2D;
+  margin-left: 3%;
+  padding-top: 3%;
+  padding-right: 8%;
+  padding-left: 8%;
+  padding-bottom: 4%;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  /* box-shadow: inset 3em 1em rgba(0, 0, 0, 0.318); */
+}
+
+.icon-st{
+  width: 25%;
+  display:flex;
+  justify-content: flex-start;
+}
+
+.caixa-film-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* gap: 1%;  */
+}
+
+.caixa-film-1{
+  background-color: #2E2D2D;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto 3%;
+  padding: 4%;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.caixa-film-1 p{
+  font-family: 'Righteous', sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.titulo-filmes{
+  margin-bottom: 2%;
+}
+
+.film-t{
+  font-family: 'Righteous', sans-serif;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.titulo-film-2{
+  font-family: 'Righteous', sans-serif;
+  color: #D3CC3F;
+  font-size: 25px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+  .icon-st{
+    width: 30%;
+  }
+
+  .actor__details{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .personagem-caixa-1{
+    margin-bottom: 5%;
+  }
+
+  .caixa-film-container{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}

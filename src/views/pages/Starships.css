@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/* Container do nome das naves */
+.caixa-naves-titulo{
+  background-image: url("../../assets/star-wars-fundo.png");
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 960px;
+  position: relative;
+  /* margin-left: 14.5%; */
+  margin-top: 18%;
+  border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Nome das naves */
+.titulo-naves{
+  -webkit-text-stroke: 1px #D3CC3F;
+  font-family: 'Righteous', sans-serif;
+  font-size: 75px;
+  color: rgba(255, 255, 255, 0);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: start;
+  padding-left: 25px;
+}
+
+/* Botão de visualização */
+.view__button {
+  padding: 1em 2.2em;
+  background-color: black;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  animation: opacity 10s;
+}
+
+.view__button:hover {
+  color: #D3CC3F;
+  border-color: #D3CC3F;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Estilos para dispositivos móveis */
+
+@media screen and (max-width: 768px) {
+  .caixa-naves-titulo {
+    width: 90%;
+    height: 160px;
+  }
+
+  .titulo-naves {
+    font-size: 10vw;
+    text-align: center;
+  }
+
+  .view__button {
+    padding: 0.8em 1.6em;
+    font-size: 1rem;
+  }
+}
+
