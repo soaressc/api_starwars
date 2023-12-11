@@ -1,8 +1,7 @@
 # Projeto Star Wars
 Trabalho semestral de Desenvolvimento Web Front End do segundo semestre do curso de Análise e Desenvolvimento de Sistemas no IFSP-BRA.
 
-__
-# Equipe
+## Equipe
 A aliança rebelde. A força esteve conosco!
 
 Ana Laura Angelieri
@@ -16,8 +15,8 @@ Desbravou o lado sombrio da web, construindo a página de personagens com precis
 
 Soraya Costa Soares
 Entrar em nosso site agora é (quase) possível com as páginas de Login e Sign Up. É hora de aderir à Aliança Rebelde!
-__
-# Ferramentas
+
+## Ferramentas
 
 React
 Ferramenta principal da disciplina, pilar para construção do site
